@@ -1,0 +1,47 @@
+Folder “local” contains client_local.c and server.c.  
+client_local connects to the server running on localhost.
+You should run server before running client_local.
+
+Folder “remote” contains client_remote.c, which connects to the remote server on “129.170.213.101”.
+
+Use command “make clean” to clean up all existing .o files and executable files.
+Use command “make all” to compile and build executable files.
+
+
+Sample outputs:
+Folder “local”:
+
+output of server:
+Starting server ...
+Server is up and listening at port 47789
+
+output of client_local:
+Which sensor would you like to read:
+
+	(1) Water temperature
+	(2) Reactor temperature
+	(3) Power level
+
+Selection: 
+3
+
+The last POWER LEVEL was taken Wed Apr  6 23:21:27 2016 and was 47 MW
+
+
+Folder “remote”:
+
+WELCOME TO THE THREE MILE ISLAND SENSOR NETWORK
+
+
+Which sensor would you like to read:
+
+	(1) Water temperature
+	(2) Reactor temperature
+	(3) Power level
+
+Selection: 
+1 
+
+The last WATER TEMPERATURE was taken Wed Apr  6 23:19:11 2016 and was 163 F
+ 
+

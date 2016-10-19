@@ -1,0 +1,5 @@
+wildcat.cs.dartmouth.edu moose.cs.dartmouth.edu 2
+carter.cs.dartmouth.edu moose.cs.dartmouth.edu 3
+flume.cs.dartmouth.edu wildcat.cs.dartmouth.edu 4
+flume.cs.dartmouth.edu carter.cs.dartmouth.edu 5
+flume.cs.dartmouth.edu moose.cs.dartmouth.edu 7

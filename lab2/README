@@ -1,0 +1,2 @@
+Use command “make clean” to clean up all existing .o files and executable files.
+Use command “make all” to compile and build executable files.

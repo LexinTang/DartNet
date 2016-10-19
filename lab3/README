@@ -1,0 +1,22 @@
+Use make to build files.
+Use command “make clean” to clean up all existing .o files and executable files.
+Use command “make all” to compile and build executable files.
+
+goto server directory, run ./app_server to start the server.
+goto client directory, run ./app_client to start the client, 
+you will input the server hostname to connect to the server. 
+
+In client directory:
+	app_client.c - client application source file
+	srt_client.c - str client side  source file
+ 	srt_client.h - srt client header file	
+
+In server directory:
+	app_server.c - server application source file
+	srt_server.c - srt server side source file
+	srt_server.h - srt server header file
+
+In common directory:
+	seg.h - segment header file
+	seg.c - segment source file
+	constants.h - constants used by SRT
